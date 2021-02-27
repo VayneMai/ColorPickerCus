@@ -1,0 +1,21 @@
+﻿<Window x:Class="ColorCus.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:ColorCus"
+        mc:Ignorable="d"
+        Background="Black"
+        WindowStartupLocation="CenterScreen"
+        Closing="Window_Closing"
+        Title="MainWindow" Height="250" Width="350">
+    <Grid>
+        <Button Width="100"
+                Height="30"
+                BorderBrush="{x:Null}"
+                BorderThickness="0"
+                Name="btnOpen"
+                Click="btnOpen_Click"></Button>
+    </Grid>
+</Window>
